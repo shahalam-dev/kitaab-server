@@ -12,7 +12,7 @@ app.use(json());
 //------------------------------//
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome to development branch.");
 });
 
 app.listen(port, () => {
